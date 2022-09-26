@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+        <head>
+          <meta charset="utf8">
+          <meta http-equiv="x-ua-compatible" content="ie=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <title> Portal Mag Faculdades | Acesso ao portal</title>
+          <meta name="author" content="Marcos Cleber Alves Silva"> <!-- mcasuxuiuxw@gmail.com-->
+          <link rel="shortcut icon" href="img/favicon-mag.png">
+        <link rel="stylesheet" type="text/css" href="css/mag-estilo.css" />
+        <link rel="stylesheet" href="css/w3.css" />
+        </head>
+<body>
+
+    <nav> <!-- barra fixa topo -->
+        <div class="header" id="myHeader">
+          <div class="w3-row">
+            <div class="w3-col w3-left w3-container" style="width:40%"><img id="loguinho" src="img/logomag-mono.svg"></div>
+            <div class="w3-col w3-right w3-container " style="width:15%;"> <img id="icon-off" src="img/icon-sair1.svg" width="30px;"></div>
+          </div>           
+        </div>
+    </nav>
+    
+<section class="w3-row"> 
+        <div class="w3-col w3-container" style="width:5%"><p></p></div>
+        <div class="w3-col w3-container" style="width:90%">
+
+                 <div class="w3-row"> <!-- conteudo duplo, logo, texto e form -->
+                    <div class="w3-container w3-half ">
+                    <img class="img-home" src="img/logomag-color-gd.svg" width="70%">  
+                    <br><br>
+                    <p id="texto-home">Bem-vindos ao seu portal de gestão universitário.</p>
+                    <p id="texto-menor">Caso você tenha problemas para acessar, resete sua senha ou entre em contato com o nosso time de suporte, através <a href="#" title="Falar com o suporte">deste link</a>.</p>
+                    </div>
+                    <div class="w3-container w3-half"> <!-- formulario de acesso -->
+                    
+                        <form action="tela-02.html"> <!-- aqui se usa um aquivo Php para efetuar o envio -->
+                            <div class="container-index">
+                              <h1 id="titulo-acess">Acesso ao Portal Mag </h1>
+                              <p id="texto-acess">Realize aqui seu acesso:</p>
+                              <hr>
+                          
+                              <label for="email"><b>Login</b></label>
+                              <input type="text" placeholder="Informe seu e-mail" name="email" id="email" required>
+                              <label for="psw"><b>Senha</b></label>
+                              <input type="password" placeholder="Digite sua senha" name="psw" id="psw" required>
+                          
+                              <hr>
+                             <p>Ao acessar o sistema, você aceita nossos <a href="#">Termos de uso</a> e <a href="#">Política de Privacidade</a>.</p>
+                          
+                              <button type="submit" class="registerbtn">Acessar</button>
+                            </div>
+                            
+                            <div class="container signin">
+                              <p>Esqueceu sua senha? <a href="#">Clique aqui</a>.</p>
+                            </div>
+                          </form>
+                        
+                    </div>
+                </div> 
+
+        </div>
+        <div class="w3-col w3-container" style="width:5%"><p></p></div>
+</section>
+
+<div class="footer"> <!-- rodapé -->
+<p>2022 - Mag Faculdades  - Todos os direitos reservados</p>
+</div>
+</body>
+<script src="js/java-mag.js"></script>
+</html>

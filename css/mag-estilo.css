@@ -1,0 +1,560 @@
+
+body{   
+background-color: #f0f0f0;
+  }
+
+  @media only screen and (max-width: 700px) {
+    body  {  background-color: #fff;  }    }
+
+
+.header {  
+padding: 10px 16px;  background: #fff;   
+}
+
+@media only screen and (max-width: 700px) {
+  .header  {  background-color: #f0f0f0;  }    }
+
+
+#icon-off {
+  opacity: 0.1; padding-top: 7%;
+}
+
+          @media only screen and (max-width: 600px) {
+            #icon-off  {  padding-top: 50%;   }    }
+
+
+
+            #icon-on {
+               padding-top: 7%;
+            }
+            
+                      @media only screen and (max-width: 600px) {
+                        #icon-on  {  padding-top: 50%;   }    }
+            
+
+.sticky {  
+position: fixed;  top: 0;    width: 100%;
+   }
+
+          .sticky + .content {  
+          padding-top: 102px;
+            }
+
+
+#loguinho{  
+padding-left: 15%; padding-top: 1%;   
+}
+
+          @media only screen and (max-width: 600px) {
+          #loguinho { width: 120px; padding-top: 4%; }    }
+
+
+#texto-home{
+color: #1f1f1f; font-size: 30px; font-weight: 600; 
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+padding-left: 2%; padding-right: 2%; letter-spacing: 0.1px;
+}
+
+          @media only screen and (max-width: 600px) {
+          #texto-home {    }   
+          }
+
+
+#texto-menor{
+  color: #1f1f1f;   font-size: 20px;   font-weight: 6500;   
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  padding-left: 2%;   padding-right: 2%;   letter-spacing: 0.1px;
+  }
+
+    #texto-mode-on{
+      color: #17bb77;   font-size: 15px;   font-weight: 700;   
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+      padding-left: 2%;   padding-right: 2%;   letter-spacing: 0.1px;
+      }
+  
+
+
+
+  #texto-card{
+    color: #444444;     font-size: 16px;     font-weight: 400; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    padding-left: 2%;     padding-right: 2%;    letter-spacing: 0.1px;
+    }
+  
+
+#titulo-acess{ 
+  font-weight: 700;   font-size: 25px; 
+  letter-spacing: 0.1px;
+}
+
+#titulo-card{ 
+  font-weight: 600;   font-size: 22px; color: #000;
+  letter-spacing: 0.1px;
+}
+
+@media only screen and (max-width: 900px) {
+  #titulo-card { font-size:18px; }    }
+
+ 
+  
+  #texto-card-2{
+    color: #8f8f8f;   font-size: 16px;   font-weight: 400;   
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    padding-left: 2%;   padding-right: 2%;   letter-spacing: 0.1px;
+    }
+
+
+
+.img-home{ 
+  margin-top: 10%;
+}
+
+
+#more {display: none;}
+
+/* css formulario de acesso --------------------------------------------- */
+
+* {
+box-sizing: 
+border-box;    
+}
+
+.container {  
+  padding: 16px;    background-color: white;   border-radius: 30px;
+      margin-top: 10%;   padding-left: 6%;   padding-right: 6%; 
+}
+
+.container-index {  
+  padding: 16px;    background-color: white;   border-radius: 30px;
+      margin-top: 10%;   padding-left: 6%;   padding-right: 6%; 
+}
+
+@media only screen and (max-width: 700px) {
+  .container-index  {  background-color: #f0f0f0;  }    }
+
+
+
+
+
+
+
+input[type=text], input[type=password] {  
+  width: 100%;    padding: 15px;  
+  margin: 5px 0 22px 0;    display: inline-block;  
+  border: none;    background: #f6f6f6;   border-radius: 10px;    
+}
+
+input[type=text]:focus, input[type=password]:focus {  
+background-color: #ddd;  
+outline: none;    
+}
+
+
+hr {  
+  border: 1px solid #f1f1f1;    margin-bottom: 25px; 
+ }
+
+.registerbtn {  
+  background-color: #FF003D;    color: white;  
+  padding: 16px 20px;   border: none;   margin: 8px 0;  
+  cursor: pointer;   width: 100%;  opacity: 0.9; 
+  border-radius:   50px; width: 100%; 
+ }
+
+.registerbtn:hover {  
+  opacity: 2;    
+}
+
+a { 
+  color: #FF003D;  
+}
+
+.signin {  
+  background-color: #f0f0f0;  text-align: center; 
+  border-radius: 0;  margin-top: 0;  padding-bottom: 70px; }
+
+  @media only screen and (max-width: 700px) {
+    .signin   {  background-color: #fff;  }    }
+  
+  
+
+
+/* --------------------------------------------------------- */
+
+
+
+.footer {
+position: fixed;left: 0;bottom: 0;
+width: 100%; background-color: #FF003D;
+color: white; text-align: center; font-size: 12px;
+}
+
+
+/* css cards menu principal - mag --------------------------- */
+
+* {
+  box-sizing: border-box;
+}
+
+.columns {
+  float: left;  width: 80%;
+  padding: 20px;
+}
+
+.card-mag {
+  list-style-type: none;  border: 1px solid #eee;
+  margin: 0;  padding: 0;  -webkit-transition: 0.3s;  
+  transition: 0.3s;  text-align: center;  border-radius: 13px;
+  }
+
+.card-mag:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2); background-color: #f9f9f9;
+}
+
+.card-mag .header {
+  background-color: #111;  color: white;
+  font-size: 25px;
+}
+
+.card-mag li {
+  border-bottom: 0px solid #eee;
+  padding: 20px;  text-align: center;
+}
+
+.card-mag .grey {
+  background-color: #eee;  font-size: 20px;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .columns {    width: 100%;
+  }
+}
+
+#icon-card{ width: 15%; margin-top: 5%; margin-bottom: -2%;
+}
+
+@media only screen and (max-width: 1300px) {
+  #icon-card {    width: 20%; margin-top: 4%;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  #icon-card {    width: 10%; 
+  }
+  .columns{ width: 10%; }
+}
+
+/* ---------------------------------------------------- */
+
+
+#myBtn {
+  background-color: #444; color: #fff;  border-radius: 7px;  
+padding: 10px 40px 10px 40px; cursor: pointer;   border: 0px solid #ddd;
+}
+
+#myBtn:hover {
+  color: #c7254b; background-color: #000; font-weight: 500;
+}
+
+
+
+
+/* painei notificacoes, dados e status ------------------------ */
+
+
+* {
+  box-sizing: border-box;
+}
+
+.left {
+  background-color: #fff;
+  padding: 20px;  float: left;  width: 46%; 
+  border-radius: 20px;   height: 90%; margin-top: 0.3%; margin-bottom: 0.5%; 
+  margin-left: 1%; margin-right: 1%;
+}
+
+.main {
+  background-color: #fff;
+  padding: 20px;  float: left;  width: 26%;   border-radius: 20px;
+  height: 90%; margin-top: 0.3%; margin-bottom: 0.5%; 
+  margin-left: 1%; margin-right: 1%;
+}
+
+.right {
+  background-color: #fff;   height: 90%x;margin-top: 0.3%; 
+  margin-bottom: 0.5%;   margin-left: 1%; margin-right: 1%;  
+  padding: 20px;  float: left;  width: 16%;   border-radius: 20px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .left, .main, .right {    width: 100%; 
+  }
+}
+/* ------------------------------------------------------------  */
+
+
+/* tela 02 */
+* {
+  box-sizing: border-box;
+}
+
+.row::after {  content: "";  clear: both;  display: table;
+}
+
+[class*="col-"] {  float: left;  padding: 15px;
+}
+
+
+.menu ul {
+  list-style-type: none;  margin: 0;  padding: 0;
+}
+
+.menu li {
+  padding: 15px;  margin-bottom: 7px;  background-color: #FF1A51;  
+  cursor: pointer;  color: #ffffff;  border-radius: 35px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #c7254b;
+}
+
+.aside {
+  background-color: #fff;  padding: 10px;  color: #333; border-radius: 10px;
+  text-align: left;  font-size: 14px; line-height: 22px;
+  
+}
+
+.aside2 {
+  background-color: #fff;  padding: 10px;  color: #333; border-radius: 10px;
+  text-align: left;  font-size: 14px; line-height: 22px;
+  
+}
+
+@media only screen and (max-width: 700px) {
+  .aside2 {  background-color: #f0f0f0;  }    }
+
+
+
+
+
+
+
+
+
+[class*="col-"] {  width: 100%;
+}
+
+@media only screen and (min-width: 1000px) {
+
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 1000px) {
+
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+#mode-on{
+  color: #0aaf55; text-transform: uppercase;
+}
+
+#mode-off{
+  color: #c7254b; text-transform: uppercase;
+}
+
+/* notificação de msg  ----------------------------- */
+.alert-mag {
+  padding: 20px;
+  background-color: #fff;
+  color: #0aaf55;
+}
+
+.alert-mag2 {
+  padding: 20px;
+  background-color: #fff;
+  color: #1c1c1c;
+}
+
+@media only screen and (max-width: 700px) {
+  .alert-mag2  {  background-color: #f0f0f0;  }    }
+
+
+
+
+
+.closebtn-mag {
+  margin-left: 15px;
+  color: #333;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn-mag:hover {
+  color: #333;
+}
+
+/* lista de cursos -------------------------------------- */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#menu-curso {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+              @media only screen and (max-width: 900px) {
+                #menu-curso { font-size:13px; }    }
+
+
+#texto-curso{
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  color:rgb(116, 116, 116);
+}
+
+@media only screen and (max-width: 900px) {
+  #texto-curso { font-size:11px; line-height: 12px; }    }
+
+
+tr:hover {background-color: #eeeeee;}
+
+
+
+
+/* css accodion mag- cursos -------------------------------- */
+.collapsible {
+  background-color: #acacac;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #8f8f8f;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #fff;
+}
+
+/* img professor ---------- */
+
+.foto-prof {
+  vertical-align: middle;  width: 100px;  height: 100px;  border-radius: 50%;
+}
+
+/* tooltip menu principal - right*/
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 180px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 6px 3px 6px 3px;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -2px;
+  left: 107%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* popup  envio de e-mail de cobrança */
+.popup {
+  position: relative;  display: inline-block;  cursor: pointer;  -webkit-user-select: none;
+  -moz-user-select: none;  -ms-user-select: none;  user-select: none;
+}
+
+
+.popup .popuptext {
+  visibility: hidden;  width: 230px;  background-color: #0aaf55;  color: #fff;
+  text-align: center;  border-radius: 6px;  padding: 9px 0;  position: absolute;
+  z-index: 1;  bottom: 125%;  left: 50%;  margin-left: -80px;
+}
+
+
+.popup .popuptext::after {
+  content: "";
+  position: absolute;  top: 100%;  left: 50%;  margin-left: -5px;
+  border-width: 5px;  border-style: solid;  border-color: #0aaf55 transparent transparent transparent;
+}
+
+
+.popup .show {
+  visibility: visible;  -webkit-animation: fadeIn 2s;  animation: fadeIn 2s;
+}
+
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
