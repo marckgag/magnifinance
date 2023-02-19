@@ -1,4 +1,4 @@
-# MagniFinance
+# MagniFinance ♥
 Projeto de estudo  
 Marcos Silva | UX/UI Designer - Dev Frontend
 
